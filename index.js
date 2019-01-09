@@ -1,4 +1,4 @@
-import XlAutocomplete from './XlAutocomplete';
+import XlAutocomplete from './src/XlAutocomplete';
 
 // let plugin = {
 //     install(Vue) {
