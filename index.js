@@ -1,9 +1,7 @@
 import XlAutocomplete from './src/XlAutocomplete';
 
-// let plugin = {
-//     install(Vue) {
-//         Vue.component(XlAutocomplete);
-//     }
-// }
+XlAutocomplete.install = function(Vue) {
+    Vue.component(XlAutocomplete.name, XlAutocomplete);
+};
 
 export default XlAutocomplete;
