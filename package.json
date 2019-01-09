@@ -1,0 +1,45 @@
+{
+  "name": "xl-autocomplete",
+  "version": "1.0.0",
+  "description": "vue autocomplete 组件",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.config.js",
+    "start": "npm run dev",
+    "build": "node build/build.js"
+  },
+  "author": "xueliang",
+  "license": "ISC",
+  "repository": {
+    "type": "Git",
+    "url": "git@github.com:xl07097/webpack-test.git"
+  },
+  "dependencies": {
+    "vue": "^2.5.17"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.2.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "clean-webpack-plugin": "^1.0.0",
+    "copy-webpack-plugin": "^4.5.4",
+    "css-loader": "^2.0.0",
+    "file-loader": "^3.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.4",
+    "portfinder": "^1.0.18",
+    "postcss-loader": "^3.0.0",
+    "rimraf": "^2.6.2",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
+    "vue-loader": "^15.4.2",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9",
+    "webpack-merge": "^4.1.4"
+  }
+}
