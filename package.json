@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "vue autocomplete 组件",
   "main": "index.js",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.config.js",
     "start": "npm run dev",
@@ -13,7 +13,7 @@
   "license": "ISC",
   "repository": {
     "type": "Git",
-    "url": "git@github.com:xl07097/webpack-test.git"
+    "url": "git@github.com:xl07097/xl-autocomplete.git"
   },
   "dependencies": {
     "vue": "^2.5.17"

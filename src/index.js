@@ -1,7 +1,9 @@
-import Vue from 'vue';
-import App from './App';
+import XlAutocomplete from './XlAutocomplete';
 
-new Vue({
-    el:"#app",
-    render: h => h(App)
-})
+// let plugin = {
+//     install(Vue) {
+//         Vue.component(XlAutocomplete);
+//     }
+// }
+
+export default XlAutocomplete;
